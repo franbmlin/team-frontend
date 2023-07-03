@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.Navbar {
+    background-color: #070B04;
+}
+
+.nav-link{
+    color: whitesmoke !important;
+}
+
+#CardsCol{
+    text-align: center;
+}
+#FormSignIn{
+    text-align: center;
+}
+#CardBorder{
+    border: solid 1px black;
+    border-radius: 7px;
+}
+
+#centerform{
+    text-align: center;
+}
+
+input [type="radio"] {
+    display: none;
+}
+
+.starRadio {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    background-image: 
+    url("https://images.pexels.com/photos/15286/pexels-photo.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 00.25em;
+    color: whitesmoke;
+    background-color: #070B04;
+    display: grid;
+    place-content: center;
+    position: fixed;
+    margin-top: auto;
+}
+
+h1, h2, h3, h4 {
+    color: whitesmoke;
+}
+
+label {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.card {
+    background-color: rgba(99, 125, 71, 0.85) !important;
+}
+
+.card-title {
+    color: whitesmoke;
+}
+
+@media (max-width: 1200px) {
+    #arrow {
+        display: none;
+    }   
+}
